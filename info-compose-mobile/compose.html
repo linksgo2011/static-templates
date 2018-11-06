@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>二手交易信息</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="../../css/mui.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/app.css"/>
+</head>
+
+<body>
+<header class="mui-bar mui-bar-nav">
+    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+    <h1 class="mui-title">发布信息</h1>
+</header>
+
+<div class="mui-content">
+    <form class="mui-input-group" id="compose-form">
+        <div class="mui-input-row">
+            <label>标题</label>
+            <input name="title" type="text" class="mui-input-clear" placeholder="请输入标题">
+        </div>
+        <div class="mui-input-row">
+            <label>电话</label>
+            <input name="phone" type="text" class="mui-input-clear" placeholder="请输入电话">
+        </div>
+        <div class="mui-input-row">
+            <label>描述</label>
+            <textarea name="description" id="description" cols="30" rows="5" placeholder="请输入描述"></textarea>
+        </div>
+
+        <div class="mui-input-row">
+            <label>上传图片</label>
+            <div class="image-uploader">
+                <div class="preview-item">
+                    <img src="./test/n_v264588a6226b240f59a8180f0ae164c91.jpg" alt="">
+                </div>
+                <div class="preview-item">
+                    <img src="./test/n_v264588a6226b240f59a8180f0ae164c91.jpg" alt="">
+                </div>
+                <div class="preview-item">
+                    <img src="./test/n_v264588a6226b240f59a8180f0ae164c91.jpg" alt="">
+                </div>
+                <div class="preview-item">
+                    <img src="./test/n_v264588a6226b240f59a8180f0ae164c91.jpg" alt="">
+                </div>
+                <input type="file" class="add-btn">
+            </div>
+        </div>
+
+        <div class="mui-button-row">
+            <button type="button" class="mui-btn mui-btn-danger mui-btn-outlined" >提 交</button>
+        </div>
+    </form>
+
+</div>
+</body>
+</html>
